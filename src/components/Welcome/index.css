@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.subscribe-Container {
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.heading {
+  color: #f0bb03;
+  font-family: 'Bree Serif';
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.desc {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Bree Serif';
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 8px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 50px;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+  .button {
+    font-size: 20px;
+  }
+  .desc {
+    font-size: 70px;
+  }
+}
